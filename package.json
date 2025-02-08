@@ -1,0 +1,57 @@
+{
+  "name": "playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.2",
+    "easy-react-text-loop": "^1.0.2",
+    "express": "^4.18.2",
+    "framer-motion": "^6.4.1",
+    "latest": "^0.2.0",
+    "lts": "^1.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.3",
+    "react": "^18.2.0",
+    "react-auth-code-input": "^3.2.1",
+    "react-code-input": "^3.10.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "react-typed": "^2.0.12",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "set GENERATE_SOURCEMAP=false && react-scripts --openssl-legacy-provider start",
+    "macStart": "GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "update": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:jest/recommended",
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
